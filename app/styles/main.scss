@@ -1,90 +1,81 @@
 // bower:scss
 // endbower
 
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
 
-/* Space out content a bit */
-body {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-
-/* Custom page header */
-.header {
-  padding-bottom: 1rem;
-  border-bottom: .05rem solid #e5e5e5;
-}
-
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 3rem;
-}
-
-/* Custom page footer */
-.footer {
-  padding-top: 1.5rem;
-  color: #777;
-  border-top: .05rem solid #e5e5e5;
-}
-
-/* Customize container */
-@media (min-width: 48em) {
-  .container {
-    max-width: 46rem;
-  }
-}
-.container-narrow > hr {
-  margin: 2rem 0;
-}
-
-/* Main marketing message and sign up button */
 .jumbotron {
+  background-image: url('http://all4desktop.com/data_images/original/4150859-venice.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  top: -100px;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.jumbotron .container {
+  width: 50%;
   text-align: center;
-  border-bottom: .05rem solid #e5e5e5;
-}
-.jumbotron .btn {
-  padding: .75rem 1.5rem;
-  font-size: 1.5rem;
 }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 3rem 0;
-}
-.marketing p + h4 {
-  margin-top: 1.5rem;
+.jumbotron .container h1 {
+  font-family: 'Bungee Inline', cursive;
+  color: white;
+  font-size: 70px;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 48em) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 2rem;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+.jumbotron .container p {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-size: 40px;
+}
+
+.jumbotron .container span {
+	border-bottom: 7px solid coral;
+}
+
+.main {
+	margin-top: -132px;
+}
+
+.col-md-6 {
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.col-md-6 h1 {
+	font-size: 60px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+a, a:link, a:visited, a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.city {
+	background-image: url('https://i.pinimg.com/originals/a1/2a/fc/a12afcf426b5beea1723d881cf618f5f.jpg');
+	background-position: top center;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+
+}
+
+.island {
+	background-image: url('http://www.wallpapers13.com/wp-content/uploads/2016/01/Thailand-island-hd-wallpaper-2560X1600.jpg');
+	background-position: top center;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+
 }

@@ -1,0 +1,55 @@
+.col-md-6 {
+	height: 70vh;
+}
+
+.london {
+	background-image: url('https://images5.alphacoders.com/680/680462.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.tokyo {
+	background-image: url('https://wallpaperscraft.com/image/japan_tokyo_buildings_night_city_28396_1920x1080.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.newyork {
+	background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-New-york-wallpaper-hd-PIC-WPC002416.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+.paris {
+	background-image: url('https://hdwallsource.com/img/2014/6/paris-wallpaper-22114-22670-hd-wallpapers.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+.valletta {
+	background-image: url('http://travelstyle.marinahotel.com.mt/wp-content/uploads/sites/2/2017/12/Valetta-Night-Malta-www.istockphoto.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+.seoul {
+	background-image: url('https://i.pinimg.com/originals/53/9b/43/539b439a6cc88e2ca9533a53fd356eaa.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+.col-md-6 {
+	opacity: 0.8;
+	transition: opacity .5s ease-in-out;
+}
+
+.col-md-6:hover {
+	opacity: 1;
+}

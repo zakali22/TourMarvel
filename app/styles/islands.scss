@@ -1,0 +1,40 @@
+.col-md-6 {
+	height: 70vh;
+}
+
+.col-md-6 {
+	opacity: 0.8;
+	transition: opacity .5s ease-in-out;
+}
+
+.col-md-6:hover {
+	opacity: 1;
+}
+
+.sant {
+	background-image: url('https://www.hdwallpaper.nu/wp-content/uploads/2017/03/santorini-6.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.hon {
+	background-image: url('https://images8.alphacoders.com/363/363814.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bali {
+	background-image: url('http://www.istartedsomething.com/bingimages/cache/BaliTemple_FR-FR8497013649_1366x768.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.tah {
+	background-image: url('http://www.osmais.com/wallpapers/201207/paisagem-tropical-wallpaper.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
