@@ -1,0 +1,62 @@
+.jumbotron {
+	background-image: url('https://images5.alphacoders.com/680/680462.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.description h4 {
+	font-size: 40px;
+	font-family: 'Lato', sans-serif;
+	color: orange;
+}
+
+.description {
+	margin-bottom: 120px;
+}
+
+
+.info h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+	color: black;
+}
+
+.info ul {
+	padding: 0;
+	margin-top: 25px;
+}
+
+.info ul li {
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+}
+
+.info ul li span {
+	color: orange;
+}
+
+.back {
+	background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HbJ1EDbHeix950qa7/england-london-piccadilly-circus-night-2_revmkuzsx_thumbnail-full01.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 50vh;
+}
+
+.back {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.back h1 {
+	text-align: center;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	
+}
